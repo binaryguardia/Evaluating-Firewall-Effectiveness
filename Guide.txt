@@ -1,4 +1,13 @@
-sudo apt install ufw
+# Guide: Configuring UFW and Testing Network Connectivity
+
+## 1. Installing UFW
+
+### On Debian-based Systems (e.g., Ubuntu, Parrot OS):
+
+1. **Update Package List:**
+   ```bash
+   sudo apt update
+
 
 On Red Hat-based Systems:
 
