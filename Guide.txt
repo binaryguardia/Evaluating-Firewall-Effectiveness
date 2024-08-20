@@ -1,11 +1,11 @@
-# Guide: Configuring UFW and Testing Network Connectivity
+Guide: Configuring UFW and Testing Network Connectivity
 
-## 1. Installing UFW
+1. Installing UFW
 
-### On Debian-based Systems (e.g., Ubuntu, Parrot OS):
+On Debian-based Systems (e.g., Ubuntu, Parrot OS):
 
-1. **Update Package List:**
-   ```bash
+1. Update Package List:
+   
    sudo apt update
 
 
