@@ -1,10 +1,10 @@
-#Guide: Configuring UFW and Testing Network Connectivity
+# Guide: Configuring UFW and Testing Network Connectivity
 
-##1. Configuring and Installing UFW
+## 1. Configuring and Installing UFW
 
 On Debian-based Systems (e.g., Ubuntu, Parrot OS):
 
-###1. Update Package List:
+### 1. Update Package List:
    
    sudo apt update
 
@@ -15,7 +15,7 @@ On Red Hat-based Systems:
 
 sudo yum install ufw
 
-###2. Configuring UFW
+### 2. Configuring UFW
 Allow Inbound Connections on Specific Ports:
 
 ```bash
@@ -34,7 +34,7 @@ sudo ufw allow from 192.168.100.0/24
 
 Deny Inbound Connections from a Specific IP Range:
 
-```bash
+``` bash
 sudo ufw deny from 203.0.113.0
 
 Allow Inbound Connections on IPv6:
@@ -53,7 +53,7 @@ Start and Enable UFW:
 sudo ufw enable
 sudo ufw status
 
-###3. Installing Nmap
+### 3. Installing Nmap
 On Debian-based Systems:
 
 ```bash
@@ -66,7 +66,7 @@ On Red Hat-based Systems:
 ```bash
 sudo yum install nmap
 
-###4. Scanning with Nmap
+### 4. Scanning with Nmap
 Regular Scan:
 
 ```bash
@@ -96,12 +96,10 @@ Not shown: 784 filtered tcp ports (no-response), 216 closed tcp ports (reset)
 MAC Address: 00:0C:29:08:43:41 (VMware)
 Nmap done: 1 IP address (1 host up) scanned in 3.62 seconds"
 
-###5. Pinging the Host
+### 5. Pinging the Host
 
 To check network connectivity to the host:
-
 ```bash
-
 ping 172.16.130.129
 
 Summary
